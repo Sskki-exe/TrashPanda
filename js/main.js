@@ -16,3 +16,4 @@ function navCompost() {
 function navSus() {
     window.location("sus.html");
 }
+
