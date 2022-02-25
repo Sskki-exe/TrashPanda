@@ -1,4 +1,4 @@
-:root{
+:root {
     --brown3: #582F0E;
     --brown2: #7F4F24;
     --brown1: #936639;
@@ -10,7 +10,15 @@
     --green1: #A4AC86;
     --green0: #C2C5AA;
 }
+
 body {
     font-family: Helvetica;
     background-color: var(--green0);
+}
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: var(--green3);
+    font-size: 20px;
 }
