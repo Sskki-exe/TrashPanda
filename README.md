@@ -28,3 +28,5 @@ Sustainable Lifestyle Guide
 TEAM MEMBERS ===============================
 
 Hannah Tay htay0008@student.monash.edu
+sara sara01hopkins@yahoo.com.au
+Laetitia Teo laetitiat8888@gmail.com hi
