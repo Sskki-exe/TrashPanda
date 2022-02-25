@@ -2,6 +2,7 @@
 An App About Trash
 
 FEATURES ==================================
+
 Plastic Identification
  - Use Identification codes
  - Identify unlabelled plastics
@@ -25,4 +26,5 @@ Sustainable Lifestyle Guide
  - How to use your own lunchboxes, cups and bottles for takeaway meals
 
 TEAM MEMBERS ===============================
+
 Hannah Tay htay0008@student.monash.edu
