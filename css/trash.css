@@ -1,0 +1,16 @@
+:root{
+    --brown3: #582F0E;
+    --brown2: #7F4F24;
+    --brown1: #936639;
+    --brown0: #A68A64;
+    --pale: #B6AD90;
+    --green4: #333D29;
+    --green3: #414833;
+    --green2: #656D4A;
+    --green1: #A4AC86;
+    --green0: #C2C5AA;
+}
+body {
+    font-family: Helvetica;
+    background-color: var(--green0);
+}
