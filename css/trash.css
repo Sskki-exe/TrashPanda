@@ -17,8 +17,16 @@ body {
 }
 
 .header {
-    padding: 60px;
     text-align: center;
     background: var(--green2);
     font-size: 20px;
+}
+.infoBubble {
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.backButton{
+    
 }
