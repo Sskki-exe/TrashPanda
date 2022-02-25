@@ -14,19 +14,32 @@
 body {
     font-family: Helvetica;
     background-color: var(--green0);
+    padding-top: 50px;
 }
 
 .header {
     text-align: center;
     background: var(--green2);
-    font-size: 20px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 50px;
 }
+
+.pageTitle {
+    background: var(--brown0);
+    color: var(--green4);
+    font-size: 25pt;
+    padding: 15px 5px;
+    border: 2px solid var(--green4);
+    margin: auto 10px;
+}
+
 .infoBubble {
     background: white;
     padding: 10px;
     border-radius: 20px;
     border: 2px solid black;
-}
-.backButton{
-    
+    margin: auto 10px;
 }
