@@ -1,10 +1,10 @@
-// JS for Information page
+// JavaScript for Information page
 
+// Retrieve item ID from LS
 let itemID = retrieveLSData("ITEM_ID");
 let itemData = data[itemID];
 
-console.log(itemData);
-
+// Set innerHTML as required
 document.getElementById("productName").innerHTML = itemData.name;
 document.getElementById("disposalSuggestions").innerHTML = itemData.disposal;
 document.getElementById("disposalLocations").innerHTML = itemData.locations;

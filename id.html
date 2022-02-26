@@ -2,18 +2,28 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/trash.css">
     <title>Trash Panda - Identification</title>
 </head>
 
 <body>
-    <!--Identification Page contains navigation bar, search input, icons for popular items that
-    may be searched for. -->
+    <!--Identification Page contains icons for popular items that may be searched for.
+    Future versions of the app will also contain a search bar. -->
 
-    <div class="header"><h2>Identify A Product</h2></div>
-    <button class="button3" id="plasticBottle" onclick="plasticBottle()">Plastic Bottle</button>
-    <button class="button1" id="plasticBag" onclick="plasticBag()">Plastic Bag</button>
-    <button class="button4" id="HDPE" onclick="HDPE()">HDPE</button>
+    <div class="header">
+        <h2>Identify A Product <button class="button1" onclick="navHome()">Home</button> </h2>
+    </div>
+    <br></br>
+
+    <div class="infoBubble">
+        <p>Please note: This page would have many more icons for popular plastic waste items. This demo
+            does not show all future features.
+        </p>
+        <button class="button3" id="plasticBottle" onclick="plasticBottle()">Plastic Bottle</button>
+        <button class="button2" id="plasticBag" onclick="plasticBag()">Plastic Bag</button>
+        <button class="button4" id="HDPE" onclick="HDPE()">HDPE</button>
+    </div>
 
     <script src="./js/main.js"></script>
 </body>

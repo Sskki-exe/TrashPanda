@@ -18,35 +18,35 @@ body {
 }
 
 .header {
-    text-align: center;
+    text-align: left;
+    font-size: 24px;
     background: var(--green2);
     position: absolute;
     left: 0px;
     right: 0px;
     top: 0px;
-    height: 50px;
+    height: 10vh;
 }
 
 .pageTitle {
     background: var(--brown0);
     color: var(--green4);
-    font-size: 25pt;
+    font-size: 24px;
     padding: 15px 5px;
     border: 2px solid var(--green4);
-    margin: auto 10px;
 }
 
 .infoBubble {
     background: white;
-    padding: 10px;
+    padding: 20px;
+    padding-bottom: 40px;
     border-radius: 20px;
     border: 2px solid black;
     margin: 10px;
-    float: right;
-    width: 80%;
+    width: 80vw;
 }
 
-.bottomText {
+/* .bottomText {
     background: white;
     padding: 10px;
     border-radius: 8px;
@@ -56,9 +56,9 @@ body {
     right: 100px;
     width: fit-content;
     font-size: 16pt;
-}
+} */
 
-.backArrow {
+/* .backArrow {
     font-size: 50pt;
     border: 2px solid var(--green4);
     border-radius: 45px;
@@ -68,16 +68,16 @@ body {
     background: var(--brown0);
     text-align: center;
     transform: rotate(180deg);
-}
+} */
 
-.bottomArrow {
+/* .bottomArrow {
     color: var(--brown0);
     text-align: right;
     font-size: 80pt;
     position: absolute;
     bottom: 10px;
     right: 10px;
-}
+} */
 
 .leftPanel {
     float: left;
@@ -85,29 +85,28 @@ body {
     margin: 20px;
 }
 
-.icon {
+/* .icon {
     width: 90px;
     height: 90px;
     border: 2px solid black;
     background: white;
     border-radius: 45px;
-}
+} */
 
 .icon img {
     width: 50px;
     height: 50px;
     position: relative;
     top: 50%;
-    transform: translate(0%, -50%);
 }
 
 .button1 {
-    width: 90px;
-    height: 90px;
+    width: 50px;
+    height: 50px;
     border: 2px solid black;
     background: var(--brown1);
     top: 50%;
-    transform: translate(0%, 15%);
+    transform: translate(vw, -10%);
     border-radius: 45px;
 }
 
@@ -135,8 +134,15 @@ body {
     width: 90px;
     height: 90px;
     border: 2px solid black;
-    background: var(--brown3);
+    background: var(--brown2);
+    color: white;
     top: 50%;
     transform: translate(0%, 15%);
     border-radius: 45px;
+}
+
+.setButton {
+    width: 50px;
+    height: 30px;
+    background: white;
 }

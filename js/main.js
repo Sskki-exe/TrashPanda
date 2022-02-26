@@ -1,28 +1,30 @@
-// JS for the home page
+// JavaScript for Home page
 
-// navigation buttons
+// Navigation buttons
 function navHome() {
     window.location = "index.html";
 }
-
 function navIdentify() {
     window.location = "id.html";
 }
-
 function navCompost() {
     window.location = "compost.html";
 }
-
 function navSus() {
     window.location = "sus.html";
 }
 
-//let userLocation = document.getElementByID("userLocation").value;
+/*
+In future development, the app will allow the user to input their primary location.
+Its features will then extend to provide information regarding nearby sites for REDcycle, 
+composting, etc.
+let userLocation = document.getElementByID("userLocation").value;
+*/
 
 //default location setting for the purposes of this demo
 let userLocation = "Monash University, Clayton";
 
-//mock data
+// Mock data. This data will be expanded upon as the app's development progresses.
 let data = [{
         name: "Plastic Bottle",
         disposal: "General recycling. Empty bottle and rinse bottle and cap, remove cap and squash the bottle flat. Bottle caps must be separated from the bottles and stored in a separated recyclable container (a cardboard container), to prevent the bottle caps falling through sorters and becoming litter. Donating to Envision: Melbourne-based recycling company that accepts bottle caps and uses them for the creation of prosthetics, plastic furniture and other recycled plastic goods. They will only accept bottle caps that are type 2, 4, 6 plastic recyclable.",
@@ -49,7 +51,7 @@ let data = [{
 ];
 updateLSData("DATA", data);
 
-// identification nav functions
+// Identification navigation functions. Redirect the user to the correct information page.
 function plasticBottle() {
     updateLSData("ITEM_ID", 0);
     window.location = "info.html";
@@ -65,7 +67,7 @@ function HDPE() {
     window.location = "info.html";
 }
 
-// local storage functions
+// Local storage functions (required to allow new information pages to be loaded for different items).
  function retrieveLSData(key)
  {
      let data = localStorage.getItem(key);
@@ -85,3 +87,11 @@ function HDPE() {
      let json = JSON.stringify(data);
      localStorage.setItem(key, json);
  }
+
+/* 
+Set location function (demo ver.)
+A function to gather information about local recycling sites is in the works.
+*/
+function setLocation() {
+    document.getElementById("info").innerHTML = "For the purposes of this demo, the location is currently set to Monash University Clayton";
+}

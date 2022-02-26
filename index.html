@@ -2,21 +2,25 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/trash.css">
     <title>Trash Panda - Home</title>
 </head>
 
 <body>
-    <!--Home Page contains Navigation bar and App slogan.-->
+    <!--Home Page contains Navigation buttons.-->
     <div class="header">
-        <h1>Trash Panda</h1>
+        <h2>Trash Panda</h2>
     </div>
+    <br></br>
 
-    <div>
-        <p>An App About Trash</p>
-        <button class="button1" id="homeButton" onclick="navIdentify()">Identify A Product</button>
-        <button class="button2" id="idButton" onclick="navCompost()">Composting Guide</button>
-        <button class="button3" id="compostButton" onclick="navSus()">Sustainable Living</button>
+    <div class="infoBubble" style="text-align: center;">
+        <p>Ever wondered where your trash should go? Or are you interested in 
+            becoming more environmentally friendly?
+        </p>
+        <button class="button2" onclick="navIdentify()">Identify A Product</button>
+        <button class="button3" onclick="navCompost()">Composting Guide</button>
+        <button class="button4" onclick="navSus()">Sustainable Living</button>
     </div>
     <br></br>
 
@@ -24,6 +28,8 @@
         <!--For the purposes of this demo, the location is currently set to Monash University Clayton-->
         <p>Enter Your Location Below (Currently Locked)</p>
         <input type="text" id="userLocation"></input>
+        <button id="setLocation" onclick="setLocation()" class="setButton">Set</button>
+        <p id="info"></p>
     </div>
 
     <script src="./js/main.js"></script>
