@@ -9,15 +9,24 @@
 <body>
     <!--Home Page contains Navigation bar and App slogan.-->
     <div class="header">
-        <h1>test</h1>
+        <h1>Trash Panda</h1>
     </div>
-    <p>This is a test</p>
-    <button id="homeButton" onclick="navHome()">Home</button>
-    <button id="idButton" onclick="navIdentify()">Identify A Product</button>
-    <button id="compostButton" onclick="navCompost()">Composting Guide</button>
-    <button id="susButton" onclick="navSus()">Sustainable Living</button>
 
-    <script src="main.js"></script>
+    <div>
+        <p>An App About Trash</p>
+        <button class="button1" id="homeButton" onclick="navIdentify()">Identify A Product</button>
+        <button class="button2" id="idButton" onclick="navCompost()">Composting Guide</button>
+        <button class="button3" id="compostButton" onclick="navSus()">Sustainable Living</button>
+    </div>
+    <br></br>
+
+    <div>
+        <!--For the purposes of this demo, the location is currently set to Monash University Clayton-->
+        <p>Enter Your Location Below (Currently Locked)</p>
+        <input type="text" id="userLocation"></input>
+    </div>
+
+    <script src="./js/main.js"></script>
 </body>
 
 </html>

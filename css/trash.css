@@ -100,3 +100,43 @@ body {
     top: 50%;
     transform: translate(0%, -50%);
 }
+
+.button1 {
+    width: 90px;
+    height: 90px;
+    border: 2px solid black;
+    background: var(--brown1);
+    top: 50%;
+    transform: translate(0%, 15%);
+    border-radius: 45px;
+}
+
+.button2 {
+    width: 90px;
+    height: 90px;
+    border: 2px solid black;
+    background: var(--green2);
+    top: 50%;
+    transform: translate(0%, 15%);
+    border-radius: 45px;
+}
+
+.button3 {
+    width: 90px;
+    height: 90px;
+    border: 2px solid black;
+    background: white;
+    top: 50%;
+    transform: translate(0%, 15%);
+    border-radius: 45px;
+}
+
+.button4 {
+    width: 90px;
+    height: 90px;
+    border: 2px solid black;
+    background: var(--brown3);
+    top: 50%;
+    transform: translate(0%, 15%);
+    border-radius: 45px;
+}
