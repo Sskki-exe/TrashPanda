@@ -34,3 +34,12 @@ TEAM MEMBERS ===============================
 - Sara Hopkins sara01hopkins@yahoo.com.au
 - Laetitia Teo laetitiat8888@gmail.com 
 - Harry Choi beaver.hacker@gmail.com
+
+RESOURCES =============================
+ - https://sawshub.com/how-to-make-diy-compost-bin/
+ - https://www.harrodhorticultural.com/rowlinson-allotment-compost-bin-pid8055.html
+ - https://en.wikipedia.org/wiki/Plastic_recycling#Identification_codes
+ - https://gulfcoast.edu/current-students/academic-divisions/social-sciences/textbooks.html
+ - https://shopee.com.my/reusable-24oz-glass-bubble-tea-cup-with-12mm-straw.-i.161849152.2442765241
+ - https://www.thriftyfun.com/Using-Reusable-Shopping-Bags.html
+ - https://www.familyhandyman.com/garden/12-tips-for-successful-spring-composting/
