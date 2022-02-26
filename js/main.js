@@ -34,7 +34,7 @@ let data = [{
     {
         name: "Plastic Bag",
         disposal: "REDcycle. empty bags (bread bags, chip packets, grocery bags) that are clean of food remains can be recycled through this program. Collect bags, any soft plastic bag that you can scrunch in your fist and store them inside each other. The program recycles these soft plastics into benches, bollards and other in-store use equipment.They can be disposed at your local Coles and Woolworths (all woolworths stores, as of 2022 have RedCycle bins) store in the RedCycle bins out the front.",
-        locations: "",
+        locations: "N/A",
         closest: "2107/2125 Princes Hwy, Clayton VIC 3168",
         id: 4
     },
@@ -42,41 +42,46 @@ let data = [{
     {
         name: "HDPE",
         disposal: "General Recycling: All HDPE plastics (number 2 recycling plastics excluding bottle lids) can be placed in your kerbside recycling bin to be processed. Recycling plants in Victoria can repurpose the HDPE into food resin to be inserted into the food supply chain. HDPE is most used for plastic milk bottles, make sure to clean these and remove the caps before recycling.",
-        locations: "",
-        closest: "",
+        locations: "N/A",
+        closest: "N/A",
         id: 2
     }
 ];
-
-// JS for Information page
-function infoPage(itemID) {
-    console.log("Test");
-    let itemData = data[itemID];
-    
-    document.getElementById("productName").innerHTML = itemData.name;
-    document.getElementById("disposalSuggestions").innerHTML = itemData.disposal;
-    document.getElementById("disposalLocations").innerHTML = itemData.locations;
-    document.getElementById("closestDisposal").innerHTML = `Closest Location: ${itemData.closest}`;
-    
-    let imgString = "";
-    for (let i in itemData.id) {
-        imgString += `<div class="icon"><img src=\"./codeImages/${i+1}.png\"></img></div>`;
-    }
-    document.getElementById("codeImg").innerHTML = imgString;
-}
+updateLSData("DATA", data);
 
 // identification nav functions
 function plasticBottle() {
+    updateLSData("ITEM_ID", 0);
     window.location = "info.html";
-    infoPage(0);
 }
 
 function plasticBag() {
+    updateLSData("ITEM_ID", 1);
     window.location = "info.html";
-    infoPage(1);
 }
 
 function HDPE() {
+    updateLSData("ITEM_ID", 2);
     window.location = "info.html";
-    infoPage(2);
 }
+
+// local storage functions
+ function retrieveLSData(key)
+ {
+     let data = localStorage.getItem(key);
+     try
+     {
+         data = JSON.parse(data);
+     }
+     catch(err){}
+     finally
+     {
+         return data;
+     }
+ }
+
+ function updateLSData(key, data)
+ {
+     let json = JSON.stringify(data);
+     localStorage.setItem(key, json);
+ }
