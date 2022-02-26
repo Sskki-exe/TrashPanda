@@ -44,3 +44,10 @@ RESOURCES =============================
  - https://shopee.com.my/reusable-24oz-glass-bubble-tea-cup-with-12mm-straw.-i.161849152.2442765241
  - https://www.thriftyfun.com/Using-Reusable-Shopping-Bags.html
  - https://www.familyhandyman.com/garden/12-tips-for-successful-spring-composting/
+ - https://www.ecobin.com.au/understand-recycling-codes/
+ - https://www.marieclaire.co.uk/life/sustainability/sustainable-living-731921
+ - https://www.wessexwater.co.uk/community/blog/14-ways-to-live-a-more-sustainable-lifestyle
+ - https://www.smallfootprintfamily.com/100-things-you-can-compost#from-the-kitchen
+ - https://www.planetnatural.com/composting-101/making/what-to-use/
+ - https://www.gardeningknowhow.com/composting/basics/starting-compost-pile.htm
+ - https://www.heyhappyhuman.com/
