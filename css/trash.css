@@ -41,5 +41,62 @@ body {
     padding: 10px;
     border-radius: 20px;
     border: 2px solid black;
-    margin: auto 10px;
+    margin: 10px;
+    float: right;
+    width: 80%;
+}
+
+.bottomText {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid black;
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+    width: fit-content;
+    font-size: 16pt;
+}
+
+.backArrow {
+    font-size: 50pt;
+    border: 2px solid var(--green4);
+    border-radius: 45px;
+    height: 90px;
+    width: 90px;
+    color: var(--green0);
+    background: var(--brown0);
+    text-align: center;
+    transform: rotate(180deg);
+}
+
+.bottomArrow {
+    color: var(--brown0);
+    text-align: right;
+    font-size: 80pt;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.leftPanel {
+    float: left;
+    text-align: center;
+    margin: 20px;
+}
+
+.icon {
+    width: 90px;
+    height: 90px;
+    border: 2px solid black;
+    background: white;
+    border-radius: 45px;
+}
+
+.icon img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 50%;
+    transform: translate(0%, -50%);
 }
