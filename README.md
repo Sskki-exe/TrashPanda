@@ -29,5 +29,5 @@ TEAM MEMBERS ===============================
 
 - Hannah Tay hannah.en.tay@gmail.com
 - Sara Hopkins sara01hopkins@yahoo.com.au
-- Laetitia Teo laetitiat8888@gmail.com hi
+- Laetitia Teo laetitiat8888@gmail.com 
 - Harry Choi beaver.hacker@gmail.com
