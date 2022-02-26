@@ -52,17 +52,17 @@ let data = [{
 function infoPage(itemID) {
     console.log("Test");
     let itemData = data[itemID];
-    /*
+    
     document.getElementById("productName").innerHTML = itemData.name;
     document.getElementById("disposalSuggestions").innerHTML = itemData.disposal;
     document.getElementById("disposalLocations").innerHTML = itemData.locations;
     document.getElementById("closestDisposal").innerHTML = `Closest Location: ${itemData.closest}`;
-    */
+    
     let imgString = "";
     for (let i in itemData.id) {
         imgString += `<div class="icon"><img src=\"./codeImages/${i+1}.png\"></img></div>`;
     }
-    //document.getElementById("codeImg").innerHTML = imgString;
+    document.getElementById("codeImg").innerHTML = imgString;
 }
 
 // identification nav functions
