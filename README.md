@@ -3,9 +3,10 @@ An App About Trash
 
 IMPORTANT INFORMATION ======================
 
- - This is a web application with a UI designed for mobile phones. It allows users to learn how to recycle their plastic waste, how to get started composting, and provides tips and tricks for a more sustainable lifestyle. 
+ - This is a web application with a UI designed for mobile phones, specifically the Samsung Galaxy S10, however it is compatible with most modern phone sizes. It allows users to learn how to recycle their plastic waste, get started composting, and learn tips and tricks for a more sustainable lifestyle. 
  - The aim of the application is to promote correct recycling methods to reduce plastic pollution as well as to provide a user-friendly guide to living more sustainably to people who are interested.
  - The code in this repository is for a demo version of the app, and therefore has limited features. Comments throughout the repository outline the future plans for this application.
+ - The app is hosted by GitHub at https://skjhfds.github.io/TrashPanda/
 
 FEATURES ==================================
 
